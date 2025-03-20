@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        /* Estilos para la barra de navegación */
+        nav {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+        h1 {
+            color: #ff3399; /* Color rosa */
+            font-size: 2.5rem; /* Tamaño grande */
+            font-weight: bold;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .nav-link {
+            color: #ff3399 !important; /* Color rosa */
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            color: #d81b60 !important; /* Rosa más oscuro */
+        }
+        .gallery {
+            padding: 50px 0;
+        }
+        .gallery img {
+            width: 80%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .gallery-item {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galería</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container gallery">
+        <h1>Galería de imagenes</h1>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 gallery-item">
+                <img src="img/album1.jpg" alt="Imagen 1">
+            </div>
+            <div class="col-md-4 col-sm-6 gallery-item">
+                <img src="img/visual12.jpg" alt="Imagen 2">
+            </div>
+            <div class="col-md-4 col-sm-6 gallery-item">
+                <img src="img/visual13.jpg" alt="Imagen 3">
+            </div>
+            <div class="col-md-4 col-sm-6 gallery-item">
+                <img src="img/visual14.jpg" alt="Imagen 4">
+            </div>
+            <div class="col-md-4 col-sm-6 gallery-item">
+                <img src="img/visual15.jpg" alt="Imagen 5">
+            </div>
+            <div class="col-md-4 col-sm-6 gallery-item">
+                <img src="img/visual1.jpg" alt="Imagen 6">
+            </div>
+            <div class="col-md-4 col-sm-6 gallery-item">
+                <img src="img/visual2.jpg" alt="Imagen 7">
+            </div>
+            <div class="col-md-4 col-sm-6 gallery-item">
+                <img src="img/visual16.jpg" alt="Imagen 8">
+            </div>
+            <div class="col-md-4 col-sm-6 gallery-item">
+                <img src="img/visual6.jpg" alt="Imagen 9">
+            </div>
+            <div class="col-md-4 col-sm-6 gallery-item">
+                <img src="img/visual5.jpg" alt="Imagen 10">
+            </div>
+            <div class="col-md-4 col-sm-6 gallery-item">
+                <img src="img/visual8.jpg" alt="Imagen 11">
+            </div>
+            <div class="col-md-4 col-sm-6 gallery-item">
+                <img src="img/visual9.jpg" alt="Imagen 12">
+            </div>
+            <div class="col-md-4 col-sm-6 gallery-item">
+                <img src="img/visual10.jpg" alt="Imagen 13">
+            </div>
+            <div class="col-md-4 col-sm-6 gallery-item">
+                <img src="img/visual11.jpg" alt="Imagen 14">
+            </div>
+            <div class="col-md-4 col-sm-6 gallery-item">
+                <img src="img/visual17.jpg" alt="Imagen 14">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
